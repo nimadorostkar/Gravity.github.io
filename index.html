@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>Gravity</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Animation Libraries -->
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/magic.min.css">
+    <!-- Google Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900%7COpen+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
+    <!-- Fonts Icons -->
+    <link rel="stylesheet" href="css/custom-icons.css">
+    <link rel="stylesheet" href="css/et-line-icons.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <!-- Nivo Lightbox -->
+    <link rel="stylesheet" href="css/nivo-lightbox/nivo-lightbox.css">
+    <link rel="stylesheet" href="css/nivo-lightbox/lightbox-theme.css">
+    <!-- Animated Headlines -->
+    <link rel="stylesheet" href="css/animated-hedlines.css">
+    <!-- Youtube Background Player -->
+    <link rel="stylesheet" href="css/YTPlayer.css">
+    <!-- Main Styles -->
+    <link href="css/styles.css" rel="stylesheet">
+    <!-- Theme -->
+    <link href="css/theme/scuba-blue.css" rel="stylesheet" data-color="" id="theme">
+    <!-- Animsition -->
+    <link href="css/animsition.min.css" rel="stylesheet">
+    <!-- Favicon (retina) -->
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+    <meta name="application-name" content="&nbsp;" />
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="mstile-144x144.png" />
+</head>
+
+<body>
+    <!-- Page Wrapper -->
+    <div id="page" class="animsition equal" data-loader-type="loader2" data-page-loader-text="Gravity" data-animsition-in="fade-in" data-animsition-out="fade-out-up-sm" style="transform-origin: 50% 50vh;">
+        <div id="top"></div>
+        <!-- Home Section -->
+        <section id="home-section" class="home-section full-screen home-bg">
+            <div class="parallax-hero full-screen overlay" data-top="transform: translate3d(0px, 0px, 0px)" data-top-bottom="transform: translate3d(0px, -200px, 0px)" data-anchor-target="#home-section">
+                <div id="particles" class="particles"></div>
+                <div class="hs-content">
+                    <div class="hs-content-inner">
+                        <div class="init-animation-2 delay0-2s">
+                            <h1 class="hs-text-10 font-second">Gravity</h1>
+                        </div>
+                        <div class="init-animation-2 delay0-4s padding-bottom-20">
+                            <h2 class="font-second hs-text-8 transparent">Crafting digital magic with Gravity, software design and development.</h2>
+                        </div>
+                        <div class=" init-animation-5 delay0-5s">
+                            <a id="btn-play" class="btn-play lightbox" href="https://www.youtube.com/watch?v=3FaVQcEjHUc"></a>
+                            <!--        <a class="play-vid-button big-icon lightbox" href="https://www.youtube.com/watch?v=3FaVQcEjHUc"><i class="ci-icon-uniE854"></i></a> -->
+                        </div>
+                    </div>
+                    <span class="scroll-down-arrow in-page-scroll" data-start="display: inline-block" data-100-start="display: none">
+                    <a href="#about-section" class="ci-icon-uniE930 init-animation-2 delay1-8s"></a>
+                </span>
+                </div>
+            </div>
+        </section>
+        <!--/ End Home Section -->
+        <!-- Navbar -->
+        <div class="position-relative">
+            <!-- sticky: 1) remove"transp-nav" class, add class="sticky-navbar" to #nav-wrapper | 2) remove navbar-fixed-top class from #nav [and navbar-transparent class too] -->
+            <div id="nav-wrapper" class="transp-nav">
+                <nav id="nav" class="navbar navbar-fixed-top navbar-transparent navbar-dark ripple-group-parent init-animation-1" role="navigation">
+                    <div class="container in-page-scroll">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                            <button type="button" id="animated-navicon" class="navbar-toggle" data-toggle="collapse" data-target="#mobile-navbar-collapse">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand ripple-group" href="#top">
+                                <div class="navbar-logo pull-left">
+                                    <img src="img/logo.png" width="40" alt="logo" />
+                                </div>
+                                <p class="pull-left font-second">Gravity</p>
+                            </a>
+                        </div>
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse" id="mobile-navbar-collapse">
+                            <ul class="nav navbar-nav navbar-right cl-effect-5">
+                                <li>
+                                    <a class="ripple-group" href="#top">
+                                        <span data-hover="home">home</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="ripple-group" href="#about-section">
+                                        <span data-hover="about">about</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="ripple-group" href="#services-section">
+                                        <span data-hover="services">services</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="ripple-group" href="#portfolio-section">
+                                        <span data-hover="portfolio">portfolio</span>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a class="ripple-group" href="#process-section">
+                                        <span data-hover="process">process</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="ripple-group animsition-link" href="#blog-section">
+                                        <span data-hover="blog">blog</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="ripple-group" href="#contact-section">
+                                        <span data-hover="contact">contact</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- /.navbar-collapse -->
+                    </div>
+                    <!-- /.container -->
+                </nav>
+            </div>
+        </div>
+        <!--/ End Navbar -->
+        <div id="page-2">
+            <!-- About Section -->
+            <section id="about-section" class="about-section section">
+                <div class="container">
+                    <div class="section-title">
+                        <div class=" section-title-more">
+                            first you should know
+                        </div>
+                        <div>
+                            <h2 class="section-title-heading">about <span>the studio</span></h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 wow fadeInUp margin-bottom-xs-40">
+                            <blockquote class=" about-quote wow fadeInUp" data-wow-delay="0s">
+                                <p>At Gravity, we’re passionate about creating software that enriches lives. Our team thrives on innovation, overcoming challenges, and delivering impactful solutions. We’re seeking a software developer who embodies enthusiastic leadership and possesses the technical expertise to manage projects seamlessly.</p>
+                            </blockquote>
+                            <p class="section-text wow fadeInUp" data-wow-delay=".3s">Provident saepe deserunt, accusamus quiatetur, mollitia fugit sedar itectoia samus one ipsa facilisis eot.</p>
+                        </div>
+                        <!--/.col -->
+                        <div id="skillbars" class="skillbars col-sm-6">
+                            <div class="skillbar-container wow fadeInUp animated" data-wow-delay="0s">
+                                <p class="skillbar-title">Branding
+                                    <span>85%</span>
+                                </p>
+                                <!-- Skill Bar Precent_ to change the percent change the data-percent="..." -->
+                                <div class="skillbar">
+                                    <div class="skillbar-bar" data-percent="85%"></div>
+                                </div>
+                            </div>
+                            <!--/ End Skill Bar -->
+                            <div class="skillbar-container wow fadeInUp animated" data-wow-delay=".3s">
+                                <p class="skillbar-title"> Design
+                                    <span>100%</span>
+                                </p>
+                                <div class="skillbar">
+                                    <div class="skillbar-bar delay0-4s" data-percent="100%"></div>
+                                </div>
+                            </div>
+                            <!--/ End Skill Bar -->
+                            <div class="skillbar-container wow fadeInUp animated" data-wow-delay=".6s">
+                                <p class="skillbar-title">Development
+                                    <span>100%</span>
+                                </p>
+                                <div class="skillbar">
+                                    <div class="skillbar-bar delay0-8s" data-percent="100%"></div>
+                                </div>
+                            </div>
+                            <!--/ End Skill Bar -->
+                            <div class="skillbar-container wow fadeInUp animated" data-wow-delay=".9s">
+                                <p class="skillbar-title">Scale up
+                                    <span>90%</span>
+                                </p>
+                                <div class="skillbar">
+                                    <div class="skillbar-bar delay0-8s" data-percent="90%"></div>
+                                </div>
+                            </div>
+                            <!--/ End Skill Bar -->
+                        </div>
+                        <!--/.col -->
+                    </div>
+                    <!--/.row -->
+                </div>
+                <!--/.container -->
+            </section>
+            <!--/ End About Section -->
+            <hr />
+            <!-- Facts Section -->
+            <div id="facts-section" class="facts-section text-center font-second small-section">
+                <div class="container">
+                    <div class="row">
+                        <!-- Fact Item -->
+                        <div class="col-sm-3 fact-item col-xs-6 margin-bottom-xs-40">
+                            <div class="fact-number">
+                                <p class="counter">67</p>
+                            </div>
+                            <div class="fact-text">
+                                <p>apps created</p>
+                            </div>
+                        </div>
+                        <!--/ End Fact Item -->
+                        <div class="fact-item col-sm-3 col-xs-6 margin-bottom-xs-40">
+                            <div class="fact-number">
+                                <p class="counter">13</p>
+                            </div>
+                            <div class="fact-text">
+                                <p>active users</p>
+                            </div>
+                        </div>
+                        <!--/ End Fact Item -->
+                        <div class="fact-item col-sm-3 col-xs-6">
+                            <div class="fact-number">
+                                <p class="counter">5</p>
+                            </div>
+                            <div class="fact-text">
+                                <p>Monthly events</p>
+                            </div>
+                        </div>
+                        <!--/ End Fact Item -->
+                        <div class="fact-item col-sm-3 col-xs-6">
+                            <div class="fact-number">
+                                <p class="counter">9</p>
+                            </div>
+                            <div class="fact-text">
+                                <p>Team members</p>
+                            </div>
+                        </div>
+                        <!--/ End Fact Item -->
+                    </div>
+                    <!-- /.row -->
+                </div>
+                <!-- /.container -->
+            </div>
+            <!--/ End Facts Section -->
+            <hr />
+            <!-- Services Section -->
+            <section id="services-section" class="services-section section">
+                <div class="container">
+                    <div class="section-title">
+                        <div class=" section-title-more">
+                            well covered and efficient
+                        </div>
+                        <div>
+                            <h1 class="section-title-heading"><span>services</span> provided</h1>
+                        </div>
+                    </div>
+                    <div class="services-section-items padding-top-sm-10 row">
+                        <div class="services-section-item col-sm-4 margin-bottom-xs-40 wow fadeInUpLeftScale">
+                            <div class="services-section-item-icon">
+                                <i class="icon-edit"></i>
+                            </div>
+                            <h4 class="services-item-title font-second">Design</h4>
+                            <div class="services-section-item-text">
+                                <p>Product design on a website begins with understanding the target audience.</p>
+                            </div>
+                        </div>
+                        <!--/ End Services Section Item -->
+                        <div class="services-section-item col-sm-4 margin-bottom-xs-40 wow fadeInUpScale">
+                            <div class="services-section-item-icon">
+                                <i class="icon-lightbulb"></i>
+                            </div>
+                            <h4 class="services-item-title font-second">Branding</h4>
+                            <div class="services-section-item-text">
+                                <p>Ensure that your website is intuitive, easy to navigate, and responsive across devices.</p>
+                            </div>
+                        </div>
+                        <!--/ End Services Section Item -->
+                        <div class="services-section-item col-sm-4 margin-bottom-xs-40 wow fadeInUpRightScale">
+                            <div class="services-section-item-icon">
+                                <i class="icon-laptop"></i>
+                            </div>
+                            <h4 class="services-item-title font-second">Development</h4>
+                            <div class="services-section-item-text">
+                                <p>We build functional and engaging web products, including progressive web apps and AR-powered e-commerce stores.</p>
+                            </div>
+                        </div>
+                        <!--/ End Services Section Item -->
+                        <div class="services-section-item col-sm-4 margin-bottom-xs-40 wow fadeInUpLeftScale">
+                            <div class="services-section-item-icon">
+                                <i class="icon-flag"></i>
+                            </div>
+                            <h4 class="services-item-title font-second">Scale Up</h4>
+                            <div class="services-section-item-text">
+                                <p>Scaling up a software company is a pivotal step toward sustained growth and market dominance. </p>
+                            </div>
+                        </div>
+                        <!--/ End Services Section Item -->
+                        <div class="services-section-item col-sm-4 margin-bottom-xs-40 wow fadeInUpScale">
+                            <div class="services-section-item-icon">
+                                <i class="icon-clipboard"></i>
+                            </div>
+                            <h4 class="services-item-title font-second">Management</h4>
+                            <div class="services-section-item-text">
+                                <p>In the dynamic world of software development, effective project management is the compass that guides teams toward success.</p>
+                            </div>
+                        </div>
+                        <!--/ End Services Section Item -->
+                        <div class="services-section-item col-sm-4 wow fadeInUpRightScale">
+                            <div class="services-section-item-icon">
+                                <i class="icon-strategy"></i>
+                            </div>
+                            <h4 class="services-item-title font-second">Strategy</h4>
+                            <div class="services-section-item-text">
+                                <p>Developing a robust strategy for your software company is akin to architecting a digital skyscraper.</p>
+                            </div>
+                        </div>
+                        <!--/ End Services Section Item -->
+                    </div>
+                    <!--/.row -->
+                </div>
+                <!--/.container -->
+            </section>
+            <!--/ End Services Section -->
+            <hr />
+            <!--Start Works Section -->
+            <section id="portfolio-section" class="portfolio-section section text-center no-padding-bottom">
+                <div class="container">
+                    <div class="section-title">
+                        <div class=" section-title-more">
+                            check it out
+                        </div>
+                        <div>
+                            <h1 class="section-title-heading">our <span>portfolio</span></h1>
+                        </div>
+                    </div>
+                    <!-- Start Works Buttons -->
+                    <div id="portfolio-filters" class="portfolio-filters margin-top-20 ripple-group-parent wow fadeIn" data-wow-offset="100" data-wow-delay=".1s">
+                        <a class="btn btn-animated btn-split ripple-group" data-text="all works" data-filter="*">
+                            <span class="btn-icon icon-tools"></span>
+                        </a>
+                        <span class="btn-seperator">|</span>
+                        <a class="btn btn-animated btn-split ripple-group" data-text="design" data-filter=".design">
+                            <span class="btn-icon icon-edit"></span>
+                        </a>
+                        <span class="btn-seperator">|</span>
+                        <a class="btn btn-animated btn-split ripple-group" data-text="development" data-filter=".development">
+                            <span class="btn-icon icon-laptop"></span>
+                        </a>
+                        <span class="btn-seperator">|</span>
+                        <a class="btn btn-animated btn-split ripple-group" data-text="startup" data-filter=".startup">
+                            <span class="btn-icon icon-flag"></span>
+                        </a>
+                    </div>
+                    <!--/ End Works Buttons -->
+                </div>
+                <!-- /.container -->
+                <!-- Works Items -->
+                <ul id="portfolio-container" class="portfolio-container colored-mask gapped clearlist row portfolio-hover-effect">
+                    <li class="portfolio-item design development col-sm-6 col-md-4 col-xs-12">
+                        <div class="portfolio-item-img">
+                            <img src="img/portfolio/grid-works/1.png" alt="portfolio" />
+                        </div>
+                        <div class="portfolio-item-info font-second">
+                            <h3 class="portfolio-item-title"> MMS App </h3>
+                            <div class="portfolio-item-detail">
+                                <p> Mold Management System Application</p>
+                                <!-- LightBox Button -->
+                                <a href="img/portfolio/grid-works/1.png" title="This is an image title" class="icon-magnifying-glass lightbox" data-lightbox-gallery="gallery1"></a>
+                                <!--/ End LightBox Button -->
+                                <a href="#" class="animsition-link icon-attachment"></a>
+                            </div>
+                        </div>
+                    </li>
+                    <!--/ End Work Item -->
+                    <li class="portfolio-item design development startup col-sm-6 col-md-4 col-xs-12">
+                        <div class="video-work">
+                            <div class="video-background" data-vide-bg="mp4: img/portfolio/grid-works/work02, webm: img/portfolio/grid-works/work02, ogv: img/portfolio/grid-works/work02, poster: img/portfolio/grid-works/work02" data-vide-options="position: 50% 90%"></div>
+                        </div>
+                        <div class="portfolio-item-img">
+                            <img src="img/portfolio/grid-works/2.png" alt="portfolio video work">
+                        </div>
+                        <div class="portfolio-item-info font-second">
+                            <h3 class="portfolio-item-title">BetterMe</h3>
+                            <div class="portfolio-item-detail">
+                                <p> health and fitness software </p>
+                                <!-- LightBox Button -->
+                                <a href="img/portfolio/grid-works/2.png" data-lightbox-type="iframe" title="BetterMe" class="icon-magnifying-glass lightbox" data-lightbox-gallery="gallery1"></a>
+                                <!--/ End LightBox Button -->
+                                <a href="#" class="animsition-link icon-attachment"></a>
+                            </div>
+                        </div>
+                    </li>
+                    <!--/ End Work Item -->
+                    <li class="portfolio-item development col-sm-6 col-md-4 col-xs-12">
+                        <div class="portfolio-item-img">
+                            <img src="img/portfolio/grid-works/3.png" alt="portfolio" />
+                        </div>
+                        <div class="portfolio-item-info font-second">
+                            <h3 class="portfolio-item-title"> Human detection app </h3>
+                            <div class="portfolio-item-detail">
+                                <p> OLOV3 & Tensorflow object detection and report human movements </p>
+                                <!-- LightBox Button -->
+                                <a href="img/portfolio/grid-works/3.gif" title="Human detection app" class="icon-magnifying-glass lightbox" data-lightbox-gallery="gallery1"></a>
+                                <!--/ End LightBox Button -->
+                                <a href="https://github.com/nimadorostkar/human-detection" class="animsition-link icon-attachment"></a>
+                            </div>
+                        </div>
+                    </li>
+                    <!--/ End Work Item -->
+                    <li class="portfolio-item development col-sm-6 col-md-4 col-xs-12">
+                        <div class="portfolio-item-img">
+                            <img src="img/portfolio/grid-works/4.png" alt="portfolio" />
+                        </div>
+                        <div class="portfolio-item-info font-second">
+                            <h3 class="portfolio-item-title"> Promoter and Venue </h3>
+                            <div class="portfolio-item-detail">
+                                <p> Venue reservation and promote software</p>
+                                <!-- LightBox Button -->
+                                <a href="img/portfolio/grid-works/44.png" title="TVenue reservation and promote software" class="icon-magnifying-glass lightbox" data-lightbox-gallery="gallery1"></a>
+                                <!--/ End LightBox Button -->
+                                <a href="#" class="animsition-link icon-attachment"></a>
+                            </div>
+                        </div>
+                    </li>
+                    <!--/ End Work Item -->
+                    <li class="portfolio-item development design col-sm-6 col-md-4 col-xs-12">
+                        <div class="portfolio-item-img">
+                            <img src="img/portfolio/grid-works/5.png" alt="portfolio" />
+                        </div>
+                        <div class="portfolio-item-info font-second">
+                            <h3 class="portfolio-item-title">Davaat</h3>
+                            <div class="portfolio-item-detail">
+                                <p> ساخت، بررسی، امضا و بایگانی آنلاین قرارداد </p>
+                                <!-- LightBox Button -->
+                                <a href="img/portfolio/grid-works/55.png" title=" ساخت، بررسی، امضا و بایگانی آنلاین قرارداد " class="icon-magnifying-glass lightbox" data-lightbox-gallery="gallery1"></a>
+                                <!--/ End LightBox Button -->
+                                <a href="project_page.html" class="animsition-link icon-attachment"></a>
+                            </div>
+                        </div>
+                    </li>
+                    <!--/ End Work Item -->
+                    <li class="portfolio-item development design startup col-sm-6 col-md-4 col-xs-12">
+                        <div class="portfolio-item-img">
+                            <img src="img/portfolio/grid-works/6.png" alt="portfolio" />
+                        </div>
+                        <div class="portfolio-item-info font-second">
+                            <h3 class="portfolio-item-title">Online Shop</h3>
+                            <div class="portfolio-item-detail">
+                                <p>This is a advanced e-commerce website </p>
+                                <!-- LightBox Button -->
+                                <a href="img/portfolio/grid-works/66.png" title="This is a advanced e-commerce website " class="icon-magnifying-glass lightbox" data-lightbox-gallery="gallery1"></a>
+                                <!--/ End LightBox Button -->
+                                <a href="https://github.com/nimadorostkar/Didikala" class="animsition-link icon-attachment"></a>
+                            </div>
+                        </div>
+                    </li>
+                    <!--/ End Work Item -->
+                </ul>
+                <!--/ End Works Items -->
+            </section>
+            <!--/ End Works Section -->
+            <!-- Project Order Section -->
+            <div class="project-order-section in-page-scroll small-section text-center">
+                <a href="#contact-section" class="btn btn-animated btn-split btn-colored ripple-alone" data-text="Have a Project in Mind?"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;let's do it then&nbsp;..&nbsp;&nbsp;&nbsp;&nbsp;</span></a>
+            </div>
+            <!--/ End Project Order Section -->
+
+            <hr />
+
+            <!-- Process Section -->
+            <section id="process-section" class="process-section section">
+                <div class="container">
+                    <div class="section-title">
+                        <div class=" section-title-more">
+                            how is our work
+                        </div>
+                        <div>
+                            <h1 class="section-title-heading"><span>process</span> flow</h1>
+                        </div>
+                    </div>
+                    <div class="position-relative padding-bottom-40 padding-top-100 padding-top-sm-120">
+                        <!-- process headers -->
+                        <ul class="process-labels font-second">
+                            <!-- change [data-active] and list item to a same value -->
+                            <li data-que="1" class="process-label-active wow fadeInDown" data-wow-offset="100" data-wow-delay="0s">
+                                <i class="icon-layers">
+                            <i class="icon-layers icon-shade"></i>
+                                </i>
+                                <span data-active="Data analysis"> Data analysis </span>
+                            </li>
+                            <li data-que="2" class=" wow fadeInDown" data-wow-offset="100" data-wow-delay=".15s">
+                                <i class="icon-aperture">
+                        <i class="icon-aperture icon-shade"></i>
+                                </i>
+                                <span data-active="Product design"> Product design </span>
+                            </li>
+                            <li data-que="3" class=" wow fadeInDown" data-wow-offset="100" data-wow-delay=".3s">
+                                <i class="icon-tools">
+                            <i class="icon-tools icon-shade"></i>
+                                </i>
+                                <span data-active="Mnagement"> Mnagement</span>
+                            </li>
+                            <li data-que="4" class=" wow fadeInDown" data-wow-offset="100" data-wow-delay=".45s">
+                                <i class="icon-gears">
+                            <i class="icon-gears icon-shade"></i>
+                                </i>
+                                <span data-active="Development"> Development</span>
+                            </li>
+                        </ul>
+                        <!--/ End process headers -->
+                        <!-- process bar -->
+                        <div class="line-process-parent">
+                            <div class="line-process"></div>
+                        </div>
+                        <!--/ End process bar -->
+                    </div>
+                </div>
+                <!-- /.container -->
+                <!-- process contents -->
+                <div id="process" class="process owl-carousel container">
+                    <!-- process item -->
+                    <div class="process-item section-text row container">
+                        <div class="col-xs-12 col-sm-6">
+                            <p> Data analysis is the practice of working with data to extract useful information, which can then be used to make informed decisions. Imagine it as a detective process where we uncover hidden insights from data.</p>
+                        </div>
+                        <div class="col-xs-12 col-sm-6">
+                            <p>Sed minima eius earum qui, corrupti.Maiores amet digni Nisi autem quia ipsum non sint enim pariatur porro sunt totam nobis. explicabo quo aut provident, quod earum doloribus repudiandae.</p>
+                        </div>
+                    </div>
+                    <!--/ End process item -->
+                    <!-- process item -->
+                    <div class="process-item section-text row container">
+                        <div class="col-xs-12 col-sm-6">
+                            <p> Product design encompasses the entire process of creating a product that resonates with users. It’s not just about aesthetics; it’s about solving problems, enhancing user experiences, and aligning with business goals.</p>
+                        </div>
+                        <div class="col-xs-12 col-sm-6">
+                            <p> in the context of software companies, product design involves crafting digital products (such as apps, websites, or software interfaces) that are intuitive, visually appealing, and functional.</p>
+                        </div>
+                    </div>
+                    <!--/ End process item -->
+                    <!-- process item -->
+                    <div class="process-item section-text row container">
+                        <div class="col-xs-12 col-sm-6">
+                            <p class=""> Project management involves planning, executing, and controlling software development projects. Understand client needs and translate them into project requirements.</p>
+                        </div>
+                        <div class="col-xs-12 col-sm-6">
+                            <p> Performance management focuses on optimizing employee productivity and development. CRM systems manage interactions with clients, prospects, and leads.</p>
+                        </div>
+                    </div>
+                    <!--/ End process item -->
+                    <!-- process item -->
+                    <div class="process-item section-text row container">
+                        <div class="col-xs-12 col-sm-6">
+                            <p class="">Software development is the process of creating, designing, coding, testing, and maintaining software applications. It involves turning ideas and requirements into functional software products.</p>
+                        </div>
+                        <div class="col-xs-12 col-sm-6">
+                            <p class="">Sed minima eius earum qui, corrupti.Maiores amet digni Nisi autem quia ipsum non sint enim pariatur porro sunt totam nobis. explicabo quo aut provident, quod earum doloribus repudiandae.</p>
+                        </div>
+                    </div>
+                    <!--/ End process item -->
+                </div>
+                <!--/ End process contents -->
+            </section>
+            <!--/ End Process Section -->
+            <!-- Clients Testimonials Section -->
+            <section id="client-testimonials" class="client-testimonials section  overlay">
+                <!-- Parallax Image Background -->
+                <div class="parallax-section-bg client-testimonials-bg overlay full-screen" data-center="transform: translate3d(0px, -50%, 0px)" data-top-bottom="transform: translate3d(0px, -25%, 0px)" data-bottom-top="transform: translate3d(0px, -75%, 0px)" data-anchor-target="#client-testimonials"></div>
+                <!--/ End Parallax Image Background -->
+                <div class="container">
+                    <div class="section-title padding-bottom-40">
+                        <div class=" section-title-more">
+                            hear them out
+                        </div>
+                        <div>
+                            <h1 class="section-title-heading">our <span>clients</span></h1>
+                        </div>
+                    </div>
+                </div>
+                <!--/ .container -->
+                <div id="testimonials" class="testimonials owl-carousel carousel">
+                    <div class="testimo-item">
+                        <div class="container">
+                            <blockquote>
+                                <p>"Their communication, work ethic, and desire to give a positive outcome for their client are impressive."</p>
+                                <footer class="">Natalia Oswald
+                                    <cite title="Source Title">Tech Lead</cite>
+                                </footer>
+                            </blockquote>
+                        </div>
+                        <!--/ .container -->
+                    </div>
+                    <!--/ End Testimonials Item -->
+                    <div class="testimo-item">
+                        <div class="container">
+                            <blockquote>
+                                <p>"We see that they care about our platform’s success, which shows in the quality of their work."</p>
+                                <footer class="">Rafael Ando
+                                    <cite title="Source Title">Co-Founder & Principal, Financial Services Company </cite>
+                                </footer>
+                            </blockquote>
+                        </div>
+                        <!--/ .container -->
+                    </div>
+                    <!--/ End Testimonials Item -->
+                    <div class="testimo-item">
+                        <div class="container">
+                            <blockquote>
+                                <p>"They offer a lot of value based on their skills, talent, and rate. and they truly are a one-of-a-kind and exceptional organization."</p>
+                                <footer class="">Johny rich
+                                    <cite title="Source Title"> Head of Product Engineering</cite>
+                                </footer>
+                            </blockquote>
+                        </div>
+                        <!--/ .container -->
+                    </div>
+                    <!--/ End Testimonials Item -->
+                </div>
+                <!--/ End Testimonials Content -->
+            </section>
+            <!--/ End Clients Testimonials Section -->
+            <!-- Clients Logos -->
+            <div class="client-logos small-section">
+                <div class="container">
+                    <div id="client-logos" class="owl-carousel">
+                        <div>
+                            <p> Miranco </p>
+                        </div>
+                        <div>
+                            <p> Pell Tech </p>
+                        </div>
+                        <div>
+                            <p> Aqua development </p>
+                        </div>
+                        <div>
+                            <p> Evergreen software </p>
+                        </div>
+                        <div>
+                            <p> BetterMe </p>
+                        </div>
+                        <div>
+                            <p> Darine Tech </p>
+                        </div>
+                    </div>
+                </div>
+                <!--/ .container -->
+            </div>
+            <!--/ End Clients Logos -->
+
+            <hr />
+            <!-- Blog Section -->
+            <section id="blog-section" class="blog-section section">
+                <div class="container">
+                    <div class="section-title">
+                        <div class=" section-title-more">
+                            posts from
+                        </div>
+                        <div>
+                            <h1 class="section-title-heading">our <span>blog</span></h1>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <!-- blog item -->
+                        <article class="blog-post-preview margin-bottom-xs-40 col-sm-6">
+                            <a href="blog_post.html" class="blog-post-preview-link animsition-link" data-animsition-out="fade-out-up-sm" data-animsition-out-duration="500">
+                                <div class="blog-post-preview-img">
+                                    <img class="parallax-img img-responsive" src="img/blog/bg1.png" alt="" data-center="transform: translate3d(0px, -50%, 0px)" data-top-bottom="transform: translate3d(0px, -10%, 0px)" data-bottom-top="transform: translate3d(0px, -90%, 0px)">
+                                </div>
+                                <div>
+                                    <h2 class="blog-post-preview-title font-second"> How  <span> AI </span> is Transforming Journalism </h2>
+                                </div>
+                                <div class="blog-post-preview-date font-second">february 03, 2024</div>
+                                <div class="blog-post-preview-text">
+                                    <p> In the rapidly evolving world of media, Artificial Intelligence (AI) is not just a buzzword but a tool that is reshaping the landscape of journalism. From automated research to enhanced audience engagement, AI is playing a pivotal role in how news is sourced, reported, and distributed. </p>
+                                </div>
+                            </a>
+                        </article>
+                        <!--/ End blog item -->
+                        <!-- blog item -->
+                        <article class="blog-post-preview col-sm-6">
+                            <a href="blog_post.html" class="blog-post-preview-link animsition-link" data-animsition-out="fade-out-up-sm" data-animsition-out-duration="500">
+                                <div class="blog-post-preview-img">
+                                    <img class="parallax-img img-responsive" src="img/blog/bg2.png" alt="" data-center="transform: translate3d(0px, -50%, 0px)" data-top-bottom="transform: translate3d(0px, -10%, 0px)" data-bottom-top="transform: translate3d(0px, -90%, 0px)">
+                                </div>
+                                <div>
+                                    <h2 class="blog-post-preview-title font-second"> How to run your <span> first local LLMs </span></h2>
+                                </div>
+                                <div class="blog-post-preview-date font-second">January 21, 2024</div>
+                                <div class="blog-post-preview-text">
+                                    <p> Within the past twelve months (as I am writing this in 2024), large language models (or LLMs) have transformed the professional environment and how we carry tasks out.</p>
+                                </div>
+                            </a>
+                        </article>
+                        <!--/ End blog item -->
+                    </div>
+                    <!--/ .row -->
+                    <div class="padding-top-80 text-center">
+                        <a href="#" class="btn btn-animated btn-split btn-default ripple-alone animsition-link" data-animsition-out="fade-out-up-sm" data-animsition-out-duration="500" data-text="see all posts"><span>go to the blog</span></a>
+                    </div>
+                </div>
+                <!--/ .container -->
+            </section>
+            <!--/ End Blog Section -->
+            <!-- Contact Section -->
+            <section id="contact-section" class="section contact-section">
+                <div class="container">
+                    <div class="section-title">
+                        <div class=" section-title-more">
+                            wanna say hello?
+                        </div>
+                        <div>
+                            <h2 class="section-title-heading"><span>contact</span> us</h2>
+                        </div>
+                    </div>
+                    <div class="row padding-bottom-sm-90">
+                        <div class="col-sm-4">
+                            <div class="contact-item margin-bottom-xs-40"><i class="icon-phone"></i>
+                                <p>Phone: +98 903187 5073
+                                    <br />Telegram: +44 7776 453796</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="contact-item margin-bottom-xs-40"><i class="icon-map-pin"></i>
+                                <p>112 Throop Ave,
+                                    <br />NY 11221, London</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="contact-item margin-bottom-xs-40"><i class="icon-envelope"></i>
+                                <p>dorostkaaar@gmail.com.com
+                                <br />info@thegravitydev.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-offset-1 col-md-10">
+                            <form id="ajax-contact" class="" method="post" action="mailer.php">
+                                <fieldset>
+                                    <div class="row">
+                                        <div class="input col-xs-12 col-sm-12 padding-bottom-xs-50 padding-bottom-40">
+                                            <label class="input-label" for="name">
+                                                <span class="input-label-content font-second" data-content="name">name *</span>
+                                            </label>
+                                            <input class="input-field" type="text" name="name" id="name" required />
+                                        </div>
+                                        <div class="input col-xs-12 col-sm-6 padding-bottom-xs-50 padding-bottom-50">
+                                            <label class="input-label" for="email">
+                                                <span class="input-label-content font-second" data-content="email">email *</span>
+                                            </label>
+                                            <input class="input-field" type="email" name="email" id="email" required />
+                                        </div>
+                                        <div class="input col-xs-12 col-sm-6 padding-bottom-xs-60 padding-bottom-50">
+                                            <label class="input-label" for="company">
+                                                <span class="input-label-content font-second" data-content="company">company</span>
+                                            </label>
+                                            <input class="input-field" type="text" name="company" id="company" />
+                                        </div>
+                                        <div class="message col-xs-12 col-sm-12 padding-bottom-xs-40 padding-bottom-30">
+                                            <label class="textarea-label font-second" for="message">message *</label>
+                                            <textarea class="input-field textarea" name="message" id="message" required></textarea>
+                                        </div>
+                                    </div>
+                                    <div id="form-messages" class="form-message"></div>
+                                    <div class="col-xs-12 margin-top-30 text-center">
+                                        <button id="btn-submit" type="submit" class="btn btn-animated btn-contact ripple-alone" data-text="send it"><span class="btn-icon"><span class="loader-parent"><span class="loader3"></span></span>
+                                            </span>
+                                        </button>
+                                    </div>
+                                </fieldset>
+                            </form>
+                            <!--/ End form -->
+                        </div>
+                        <!--/ .col -->
+                    </div>
+                    <!--/ .row -->
+                </div>
+                <!--/ .container -->
+            </section>
+            <!--/ End Contact Section -->
+
+
+            <!-- Footer Section -->
+            <footer class="footer-section section no-padding-bottom">
+                <!-- footer logo -->
+                <div class="footer-logo">
+                    <img src="img/logo2.png" width="190" alt="logo" />
+
+                </div>
+                <!--/ End footer logo -->
+                <!-- Social icons -->
+                <div class="footer-social">
+                    <a href="#." class="fa fa-whatsapp wow fadeIn" data-wow-offset="150" data-wow-delay="0s"></a>
+                    <a href="#." class="fa fa-twitter wow fadeIn" data-wow-offset="150" data-wow-delay=".15s"></a>
+                    <a href="#." class="fa fa-instagram wow fadeIn" data-wow-offset="150" data-wow-delay=".3s"></a>
+                    <a href="#." class="fa fa-linkedin wow fadeIn" data-wow-offset="150" data-wow-delay=".45s"></a>
+                    <a href="#." class="fa fa-youtube-play wow fadeIn" data-wow-offset="150" data-wow-delay=".6s"></a>
+                </div>
+                <!--/ End Social icons -->
+                <!-- go top pop-up -->
+                <div id="go-top" class="go-top go-top-out in-page-scroll">
+                    <div class="circle1"></div>
+                    <a href="#top" class="square"><span></span></a>
+                    <div class="rectangle"></div>
+                    <div class="circle2"></div>
+                </div>
+                <!--/ End go top pop-up -->
+                <div class="footer-bottom">
+                    <!-- Copyright -->
+                    <a class="footer-bottom-text font-second" href="#" target="_blank">Gravity © 2024. All Right Reserved.</a>
+                    <!-- End Copyright -->
+                </div>
+            </footer>
+            <!--/ End Footer Section -->
+        </div>
+        <!--/ #page-2 -->
+    </div>
+    <!--/ #page -->
+    <!-- JS Scripts -->
+    <script src="js/modernizr.min.js"></script>
+    <script src="js/jquery-2.1.1.min.js"></script>
+    <script src="js/jquery.easing.1.3.min.js"></script>
+    <script src="js/jquery.animsition.min.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/skrollr.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/animateSlider.js"></script>
+    <script src="js/animated-headlines.js"></script>
+    <script src="js/jquery.mb.YTPlayer.min.js"></script>
+    <script src="js/jquery.vide.min.js"></script>
+    <script src="js/jquery.particleground.min.js"></script>
+    <script src="js/fss.min.js"></script>
+    <script src="js/fssinit.js"></script>
+    <script src="js/retina.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/nivo-lightbox.min.js"></script>
+    <script src="js/contactForm.js"></script>
+    <script src="js/scripts.min.js"></script>
+    <!--/ End JS Scripts -->
+</body>
+
+</html>
